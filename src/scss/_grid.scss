@@ -1,0 +1,74 @@
+$space: 100;
+
+@while $space >=0 {
+  .pl-#{$space} {
+    padding-left: #{$space}px !important;
+  }
+  .ml-#{$space} {
+    margin-left: #{$space}px !important;
+  }
+  .pr-#{$space} {
+    padding-right: #{$space}px !important;
+  }
+  .mr-#{$space} {
+    margin-right: #{$space}px !important;
+  }
+  .pt-#{$space} {
+    padding-top: #{$space}px !important;
+  }
+  .mt-#{$space} {
+    margin-top: #{$space}px !important;
+  }
+  .pb-#{$space} {
+    padding-bottom: #{$space}px !important;
+  }
+  .mb-#{$space} {
+    margin-bottom: #{$space}px !important;
+  }
+  .my-#{$space} {
+    margin-top: #{$space}px !important;
+    margin-bottom: #{$space}px !important;
+  }
+  .mx-#{$space} {
+    margin-left: #{$space}px !important;
+    margin-right: #{$space}px !important;
+  }
+  .py-#{$space} {
+    padding-top: #{$space}px !important;
+    padding-bottom: #{$space}px !important;
+  }
+  .px-#{$space} {
+    padding-left: #{$space}px !important;
+    padding-right: #{$space}px !important;
+  }
+  .p-#{$space} {
+    padding: #{$space}px !important;
+  }
+  .m-#{$space} {
+    margin: #{$space}px !important;
+  }
+  $space: $space - 2;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto;
+}
+.mt-auto,
+.my-auto {
+  margin-top: auto;
+}
+.mb-auto,
+.my-auto {
+  margin-bottom: auto;
+}
+
+.absolute-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

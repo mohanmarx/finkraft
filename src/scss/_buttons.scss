@@ -1,0 +1,22 @@
+.btn {
+  font-size: 15px;
+  line-height: 21px;
+  padding: 12px 40px;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: none;
+  border: none !important;
+  &:focus {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+
+.btn-primary {
+  background: rgba(71, 65, 134, 1);
+  border: 1px solid rgba(71, 65, 134, 1);
+  opacity: 1;
+  &:hover, &:focus {
+    background: rgba(71, 65, 134, 0.9);
+  }
+}
